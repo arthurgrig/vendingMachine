@@ -1,1 +1,3 @@
 # vendingMachine
+
+mvn clean install
