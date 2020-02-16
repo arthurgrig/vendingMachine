@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.027" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.031" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/agrigoryan2/workspace/github/vendingMachine/target/surefire/surefirebooter6170627086321184364.jar /Users/agrigoryan2/workspace/github/vendingMachine/target/surefire 2020-02-15T20-07-45_690-jvmRun1 surefire8255676170781673754tmp surefire_017213629316641857618tmp"/>
+    <property name="sun.java.command" value="/Users/agrigoryan2/workspace/github/vendingMachine/target/surefire/surefirebooter7097586577893104873.jar /Users/agrigoryan2/workspace/github/vendingMachine/target/surefire 2020-02-15T20-18-09_540-jvmRun1 surefire9685067743198242336tmp surefire_017339939315594697457tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/agrigoryan2/workspace/github/vendingMachine/target/test-classes:/Users/agrigoryan2/workspace/github/vendingMachine/target/classes:/Users/agrigoryan2/.m2/repository/org/spockframework/spock-core/2.0-M1-groovy-2.5/spock-core-2.0-M1-groovy-2.5.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-nio/2.5.8/groovy-nio-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-macro/2.5.8/groovy-macro-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-templates/2.5.8/groovy-templates-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-test/2.5.8/groovy-test-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-sql/2.5.8/groovy-sql-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/agrigoryan2/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/agrigoryan2/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/agrigoryan2/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/agrigoryan2/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/agrigoryan2/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/agrigoryan2/.m2/repository/org/spockframework/spock-junit4/2.0-M1-groovy-2.5/spock-junit4-2.0-M1-groovy-2.5.jar:/Users/agrigoryan2/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/agrigoryan2/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/Users/agrigoryan2/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/agrigoryan2/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/agrigoryan2/workspace/github/vendingMachine/target/surefire/surefirebooter6170627086321184364.jar"/>
+    <property name="surefire.real.class.path" value="/Users/agrigoryan2/workspace/github/vendingMachine/target/surefire/surefirebooter7097586577893104873.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
     <property name="user.name" value="agrigoryan2"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.015"/>
-  <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.002"/>
+  <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.017"/>
+  <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.001"/>
   <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.001"/>
   <testcase name="Run machine  select #product, insert #paid (Object,Object,Object,Object)" classname="com.arthurgrig.vendingMachine.VendingMachineTest" time="0.001"/>
 </testsuite>

@@ -57,5 +57,4 @@ class VendingMachineTest extends Specification {
         SODA    | [QUARTER, QUARTER]                              | SODA     | [(NICKEL): 1]
     }
 
-
 }

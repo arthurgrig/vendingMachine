@@ -8,7 +8,7 @@ import static com.arthurgrig.vendingMachine.Coin.*
 class CoinChangeHelperTest extends Specification {
 
     @Unroll
-    def "CoinChange"() {
+    def "CoinChange for coins: #coins and amount: #amount"() {
         given: "Quantities of coins and amount"
         coins
         amount

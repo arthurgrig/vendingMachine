@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bdc1fa5-c376-4594-8e50-e1fddd64af4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthurgrig/vendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthurgrig/vendingMachine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/arthurgrig/vendingMachine/CoinChangeHelperTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/arthurgrig/vendingMachine/CoinChangeHelperTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/arthurgrig/vendingMachine/VendingMachineTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/arthurgrig/vendingMachine/VendingMachineTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-02-15T20-07-45_690.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arthurgrig.vendingMachine.CoinChangeHelperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arthurgrig.vendingMachine.CoinChangeHelperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arthurgrig.vendingMachine.VendingMachineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arthurgrig.vendingMachine.VendingMachineTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendingMachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vendingMachine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendingMachine.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/vendingMachine.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendingMachine.iws" beforeDir="false" afterPath="$PROJECT_DIR$/vendingMachine.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,10 +172,6 @@
   <component name="EjbViewSettings">
     <EjbView showMembers="false" autoscrollToSource="false" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="HIDE_WARNINGS" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -233,6 +237,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -243,8 +248,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.VendingMachineTest.Run machine  select #product, insert #paid ">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -261,6 +269,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CoinChangeHelperTest.CoinChange for coins: #coins and amount: #amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vendingMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthurgrig.vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthurgrig.vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="com.arthurgrig.vendingMachine.CoinChangeHelperTest" />
+      <option name="METHOD_NAME" value="CoinChange for coins: #coins and amount: #amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChangeHelperTest.CoinChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vendingMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthurgrig.vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthurgrig.vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="com.arthurgrig.vendingMachine.CoinChangeHelperTest" />
+      <option name="METHOD_NAME" value="CoinChange" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.Run machine  select #product, insert #paid " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vendingMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthurgrig.vendingMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthurgrig.vendingMachine" />
+      <option name="MAIN_CLASS_NAME" value="com.arthurgrig.vendingMachine.VendingMachineTest" />
+      <option name="METHOD_NAME" value="Run machine  select #product, insert #paid " />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -272,6 +343,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VendingMachineTest.Run machine  select #product, insert #paid " />
+        <item itemvalue="JUnit.CoinChangeHelperTest.CoinChange for coins: #coins and amount: #amount" />
+        <item itemvalue="JUnit.CoinChangeHelperTest.CoinChange" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -321,7 +399,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581826052647</updated>
-      <workItem from="1581826054072" duration="165000" />
+      <workItem from="1581826054072" duration="809000" />
     </task>
     <servers />
   </component>
@@ -391,5 +469,47 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="92" key="#Project_Structure" timestamp="1581826319718">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="320" y="92" key="#Project_Structure/0.23.1440.808@0.23.1440.808" timestamp="1581826319718" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1581826855433">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581826855433" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1581826855432">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1581826855432" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1581826855430">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1581826855430" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1581826855433">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1581826855433" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1581826855315">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1581826855315" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1581826855315">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1581826855315" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1581826855314">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1581826855314" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1581826855315">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1581826855315" />
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1581826755648">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1581826755648" />
   </component>
 </project>

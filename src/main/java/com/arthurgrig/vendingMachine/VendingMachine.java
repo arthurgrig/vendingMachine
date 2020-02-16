@@ -29,7 +29,6 @@ public class VendingMachine {
     // how many of each coin machine contains
     private final Map<Coin, Integer> coinsQuantity = new HashMap<>();
 
-
     private User user;
 
     public VendingMachine() {
@@ -37,7 +36,6 @@ public class VendingMachine {
     }
 
     // Supplier api
-
     /**
      * Adds product to vending machine
      *
@@ -81,9 +79,7 @@ public class VendingMachine {
     }
 
 
-    // Customer
-    //
-
+    // Customer API
     /**
      * Transaction starts when user puts first coin
      *
