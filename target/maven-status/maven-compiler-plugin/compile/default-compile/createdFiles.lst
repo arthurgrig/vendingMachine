@@ -1,0 +1,8 @@
+com/arthurgrig/vendingMachine/VendingMachine.class
+com/arthurgrig/vendingMachine/User.class
+com/arthurgrig/vendingMachine/ProductException.class
+com/arthurgrig/vendingMachine/Product.class
+com/arthurgrig/vendingMachine/CoinChangeHelper.class
+com/arthurgrig/vendingMachine/ShoppingCart.class
+com/arthurgrig/vendingMachine/CoinException.class
+com/arthurgrig/vendingMachine/Coin.class
